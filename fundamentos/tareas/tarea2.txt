@@ -1,0 +1,12 @@
+Exercises #2
+
+1. Write a program that prompts the user to enter a month number and then displays the name 
+   of the corresponding month using the if statement.
+
+2. Write a program that prompts the user to enter a positive integer and then calculates the 
+   factorial of that integer using a while loop.
+
+3. Write a program that reads in a series of test scores from the user until a value outside 
+   the range 0-100 is entered. The program should then compute and display the average, minimum, 
+   and maximum test scores entered. Use constant variables to represent the minimum and maximum 
+   possible test scores.

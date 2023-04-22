@@ -1,0 +1,34 @@
+Exercises #4
+
+In each of these exercises, the use of custom functions with parameters, if statements, while loops, 
+and vector arrays is required. Keep any function definition on a separate .h file.
+
+1. Write a program that reads a list of integers from the user and stores them in a vector. 
+   The program should then pass this vector to a function that finds and returns the largest 
+   and smallest values in the vector. Finally, the program should print these values to the screen.
+
+2. Write a program that generates a random number between 1 and 100 and asks the user to guess 
+   the number. If the user's guess is too low, the program should print "Too low! Guess again." 
+   If the user's guess is too high, the program should print "Too high! Guess again." If the user 
+   guesses the number correctly, the program should print "Congratulations, you guessed the number!"
+
+3. Write a program that takes a string as input and returns the string with all vowels removed. 
+   The program should define a function that takes a string as a parameter and returns the modified string. 
+   The program should then read a string from the user, pass it to the function, and print the modified string to the screen.
+
+
+For random ypu cas use, the following function definition.
+
+#include <random>
+
+int randomInt(int n, int m)
+{
+    std::random_device rd;
+    std::mt19937 mt(rd());
+
+    std::uniform_int_distribution<> distr(n, m);
+    return  distr(mt);
+}
+
+	
+-- LAST LINE ---
