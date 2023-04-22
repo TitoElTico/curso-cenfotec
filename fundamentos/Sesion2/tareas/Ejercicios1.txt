@@ -1,0 +1,13 @@
+Ejercicios #1
+
+1. Escriba un programa que cree dos variables llamadas length y width, y les asigne valores
+   capturados desde el teclado.
+   Calcule el área de un rectángulo con la longitud y el ancho dados, e imprima el resultado en la consola.
+
+2. Escriba un programa que cree una variable llamada radio y le asigne un valor capturado desde el teclado.
+   Calcula el área de un círculo con el radio dado e imprime el resultado en la consola.
+
+3. Escriba un programa que cree una variable llamada hourlyRate y le asigne un valor capturado desde el teclado.
+   Cree una variable llamada hoursWorked y asígnele un valor capturado desde el teclado.
+   Calcule el pago total en función de la tarifa por hora dada y las horas trabajadas, 
+   e imprima el resultado en la consola.
