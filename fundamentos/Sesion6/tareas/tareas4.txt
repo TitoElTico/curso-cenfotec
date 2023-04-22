@@ -1,0 +1,40 @@
+Exercises #5
+
+In each of these exercises, apply the use of constants, custom functions with parameters 
+and return values, if statements, while, or for loops, and vector arrays if required.
+
+Keep any function definition on a separate .h file, and any function 
+implementation on a separate .cpp file.
+
+1. Write a program that converts a range of Fahrenheit temperatures to Celsius. 
+   The program should ask the user for the starting and ending Fahrenheit temperatures, 
+   as well as the size of the step between each temperature to be converted. 
+   
+   The program should then print out a table of conversions from Fahrenheit to Celsius, 
+   with each line of the table showing the Fahrenheit temperature, the corresponding 
+   Celsius temperature, and then a newline.
+
+	To convert Fahrenheit to Celsius, use the formula:
+
+	Celsius = (Fahrenheit - 32) * 5 / 9
+
+	For example, if the user enters a starting temperature of 32, an ending temperature 
+	of 212, and a step size of 20, the program should produce the following output:
+	
+	Fahrenheit  Celsius
+	-------------------
+	 32         0
+	 52         11.11
+	 72         22.22
+	 92         33.33
+	112         44.44
+	132         55.55
+	152         66.66
+	172         77.77
+	192         88.88
+	212         100
+
+	Note that the Fahrenheit temperatures should be right-aligned in the table, and that 
+	the Celsius temperatures should be displayed with two digits after the decimal point. 
+	
+-- LAST LINE ---
