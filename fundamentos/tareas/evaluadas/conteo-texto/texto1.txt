@@ -1,0 +1,7 @@
+este es un texto de prueba
+
+aqui inicia el segundo parrafo
+sin embargo debemos leer esta linea tambien
+
+por tanto podemos asumir hasta este punto
+que el codigo funciona sin ningun problema
