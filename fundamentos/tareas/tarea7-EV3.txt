@@ -1,0 +1,55 @@
+Exercise #7
+
+In these exercise, apply as many modern C++ as possible. You must apply the use of namespaces.
+
+Keep any class or enumeration definition on a separate .h file, and any
+implementation on a separate .cpp file. 
+
+- Exercise: Create a program that simulates a simple library management system.
+
+- Requirements
+
+	- The program should maintain a collection of books in the library. 
+	  Each book should have the following attributes: title, author, ISBN.
+	  
+	- The program should allow users to add new books to the library, remove books from the library, 
+	  and view a list of all the books in the library.
+	
+	- The program should save the library collection to a text file when the program exits, 
+	  and load the library collection from the text file when the program starts up again.
+	  
+	- The separator character is your desition (e.g., comma, pipe, semicolon, ...)
+	
+	- Choose the file name you wish, but use the .csv extension.
+	  
+- What to implement?
+
+	- Create a Book class that has private member variables for the title, author, and ISBN. 
+	  Create public member functions to get and set the values of these variables.
+	  
+	- Create a Library class that has a private vector member variable to hold the collection 
+	  of books in the library. Create public member functions to add a book to the library, 
+	  remove a book from the library, and view all the books in the library.
+	  
+	- In the Library class, implement the functions to save and load the library collection 
+	  to/from a text file. Use the correct fstream class to read and write from/to the text file.
+	
+	- In the main function, create an instance of the Library class. Load the library collection 
+	  from the text file into the Library instance. Implement a loop that displays a menu of 
+	  options to the user (e.g., "1. Add a book, 2. Remove a book, 3. View all books, 4. Quit").
+	  Depending on the user's choice, call the appropriate member function of the Library instance. 
+	  When the user quits the program, save the library collection to the text file.
+
+- Tips
+
+	- ISBN examples: 978-1838648572, 979-8361579280, 978-1465482211, 979-8361503742...
+	- You can use the std::ifstream class to read a text file.
+	- You can use the std::ofstream class to write a text file.
+	- You can use the getline() function to read each line of the file.
+	- You can use a std::vector container to store the lines of the file and iterate 
+	  through them to count the paragraphs and words.
+	- You can use the std::stringstream class to split a line into words.
+	- You can use exception handling to handle any errors that may occur during the file 
+	  reading process.
+
+-- LAST LINE ---
