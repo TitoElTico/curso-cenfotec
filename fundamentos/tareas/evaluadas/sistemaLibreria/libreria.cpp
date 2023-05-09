@@ -93,29 +93,35 @@ void verColeccion()
 
 }
 
-//Definicion de clases 
+//Implementacion de clase libro
 
-class libro
-{
-private:
-	string titulo;
-	string autor;
-	string ISBN;
+libro::libro() {
+}
 
-public:
-	libro(string i, string t, string a) 
-	{
-		ISBN = i;
-		titulo = t;
-		autor = a;
+	libro::libro(string _titulo, string _autor, string _ISBN){
+		titulo = _titulo;
+		autor = _autor;
+		ISBN = _ISBN;
 	}
 
-	string getIsbn() { return ISBN; }
-	string getTitulo() { return titulo; }
-	string getAutor() { return autor; }
+	//Getters
+	string libro::getTitulo(){
+		return titulo;
+	}
+	string libro::getAutor(){
+		return autor;
+	}
+	string libro::getISBN(){
+		return ISBN;
+	}
 
-	void setISBN(string i) { ISBN = i; }
-	void setTitulo(string t) { titulo = t; }
-	void setAutor(string a) { autor = a; }
-
-};
+	//Setters
+	void libro::setTitulo(string _titulo){
+		titulo = _titulo;
+	}
+	void libro::setAutor(string _autor){
+		autor = _autor;
+	}
+	void libro::setISBN(string _ISBN){
+		ISBN = _ISBN;
+	}

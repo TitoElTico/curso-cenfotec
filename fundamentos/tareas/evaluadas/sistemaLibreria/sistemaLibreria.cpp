@@ -10,7 +10,5 @@ using namespace std;
 
 int main()
 {
-	menuPrincipal();
-
-    cout << "READY!!!\n";
+    cout << "\nREADY!!!\n";
 }
